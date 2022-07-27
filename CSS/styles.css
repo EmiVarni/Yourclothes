@@ -1,0 +1,18 @@
+/* Mobile */
+
+.imgHome{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family:"Nunito";
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+
+.bx{
+    color: #C13584;
+}
