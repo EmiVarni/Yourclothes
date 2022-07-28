@@ -1,2 +1,2 @@
 # Yourclothes
-http://EmiVarni.github.io/Yourclothes/
+http://emivarni.github.io/Yourclothes/
