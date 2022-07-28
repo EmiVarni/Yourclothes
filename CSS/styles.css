@@ -1,5 +1,29 @@
-/* Mobile */
+/* Mobile Index */
 
+body{
+    background-color: #EEF9FC;
+}
+
+.container-fluid{
+    background-color: #EEF9FC;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #18728B;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #18728B;
+    
+}
+
+.dropdown-item{
+    color: #18728B;
+}
+
+.dropdown-menu{
+    background-color: #EEF9FC;
+}
 .imgHome{
     width: 75%;
     display: block;
@@ -7,12 +31,36 @@
     margin-right: auto;
 }
 
-footer{
+.card-body{
     font-family:"Nunito";
     text-align: center;
-    color: rgb(10, 10, 10);
+    color: #18728B;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    position: relative;
+    background-color: #d1eff7;
+    margin-top: 18%;
 }
 
 .bx{
-    color: #C13584;
+    color: #18728B;
+}
+
+.carouselText{
+    font-size: xx-small;
+    color: #00CCF5;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Desktop */
+
+@media screen and (min-width:768px) {
+    .carouselText{
+        font-size: large;
+    }
+
+    .card-body {
+        margin-top: 0%;
+    }
 }
