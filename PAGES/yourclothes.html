@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your clothes-Conocenos</title>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;900&family=Roboto:wght@500&family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Slab:wght@500;900&family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
     <!-- Icono web -->
     <link rel="icon" href="../IMG/Captura.png">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <!-- Bootsrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -21,25 +32,33 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Your Clothes</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Colección F/W
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Sweaters</a></li>
+                    <li><a class="dropdown-item" href="#">Camisas</a></li>
+                    <li><a class="dropdown-item" href="#">Remeras</a></li>
+                    <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                    <li><a class="dropdown-item" href="#">Guía de talles</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Imperdibles
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Garage Sale</a></li>
+                    <li><a class="dropdown-item" href="#">Promos</a></li>
+                    <li><a class="dropdown-item" href="#">Adelanto New Season</a></li>
+                </ul>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Tiendas</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Colección
-                    </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">FW Season</a></li>
-                    <li><a class="dropdown-item" href="#">Tops</a></li>
-                    <li><a class="dropdown-item" href="#">Bottoms</a></li>
-                    <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
@@ -52,6 +71,32 @@
             </div>
         </div>
     </nav>
+    <div>
+        <h1>Your clothes</h1>
+        <h2>Acerca de nosotros</h2>
+            <p>Somos una línea de ropa que se define con una sola palabra inclusión.
+                Buscamos que cada prenda se adapte a vos, y no que vos te adaptes a ella.
+            </p>
+            <img src="../IMG/chicaropa.png" alt="">
+        
+        <h2>¿Que deseamos?</h2>
+            <p> Que seas una mujer sin límites.
+                Que la que defina su estilo seas vos y nadie más que vos.                
+            </p>
+            <img src="../IMG/chicaropa3.png" alt="">
+        
+        <h2>¿Que buscamos?</h2>
+            <p> Que nuestras prendas y vos se fusionen siendo una sola pieza.
+                Que te sientas segura al momento de vestirlas y sobre todo te sientas libre y cómoda.                                
+            </p>
+            <img src="../IMG/chicaropa2.png" alt="">
+        
+
+    </div>
+    <footer class="card-body">
+        <span>Instagram</span><a href="https://www.instagram.com/la_patisserie_oficial/" class="navbar-brand" target="blank"><i class='bx bxl-instagram'></i></a>
+        <span>Whatsapp</span><a href="https://wa.me/+5491199999999" class="navbar-brand" target="blank"><i class='bx bxl-whatsapp' ></i></a>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

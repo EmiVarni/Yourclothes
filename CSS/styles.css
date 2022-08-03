@@ -38,7 +38,7 @@ body{
     background-clip: border-box;
     border-radius: 0.25rem;
     position: relative;
-    background-color: #d1eff7;
+    background-color: #7EDDD2;
     margin-top: 18%;
 }
 
@@ -47,10 +47,32 @@ body{
 }
 
 .carouselText{
-    font-size: xx-small;
-    color: #00CCF5;
+    font-size: medium;
+    color: #7EDDD2;
     margin: 0px;
     padding: 0px;
+}
+
+/* Your clothes */
+h1{
+    color: #219EBC;
+    display: flex;  
+    justify-content: center;
+}
+
+h2{
+    color: #40BEDD;
+    display: flex;
+    white-space: pre-line;
+}
+
+p{
+    color: #40BEDD;
+    white-space: pre-line; 
+}
+
+img{
+    width: 50%;
 }
 
 /* Desktop */
@@ -64,3 +86,4 @@ body{
         margin-top: 0%;
     }
 }
+
