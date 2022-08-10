@@ -4,6 +4,10 @@ body{
     background-color: #EEF9FC;
 }
 
+.logo{
+    width: 50%;
+}
+
 .container-fluid{
     background-color: #EEF9FC;
 }
@@ -31,6 +35,18 @@ body{
     margin-right: auto;
 }
 
+.btn-outline-success{
+    background-color: #18728B;
+    color: #EEF9FC;
+    border-color: #18728B;
+}
+
+.btn-outline-success:hover{
+    background-color: #EEF9FC;
+    color: #18728B;
+    border-color: #EEF9FC;
+}
+
 .card-body{
     font-family:"Nunito";
     text-align: center;
@@ -55,14 +71,14 @@ body{
 
 /* Your clothes */
 h1{
-    color: #219EBC;
-    display: flex;  
+    color: #219EBC; 
+    display: flex;
     justify-content: center;
+    margin: 40px;
 }
 
 h2{
     color: #40BEDD;
-    display: flex;
     white-space: pre-line;
 }
 
@@ -73,6 +89,17 @@ p{
 
 img{
     width: 50%;
+}
+.your-clothes-btn:hover{
+    background-color: #EEF9FC;
+    color: #18728B;
+    border-color: #EEF9FC;
+}
+
+@media screen and (min-width:372px){
+    img{
+        width: 80%;
+    }
 }
 
 /* Desktop */
@@ -85,5 +112,13 @@ img{
     .card-body {
         margin-top: 0%;
     }
+
+    /* your clothes */
+
+    p{
+        font-size: x-large;  
+    }
 }
+
+
 
