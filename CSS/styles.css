@@ -91,10 +91,20 @@ img{
     width: 50%;
 }
 
-@media screen and (min-width:372px){
-    img{
-        width: 80%;
-    }
+/* Colección */
+
+.cardbodysweaters{
+    background-color:#EEF9FC;
+
+}
+
+.modal-header{
+    background-color:#EEF9FC;
+}
+
+.modal-title{
+    font-family:"Nunito";
+    color: #40BEDD;
 }
 
 /* Desktop */
@@ -114,6 +124,10 @@ img{
         font-size: x-large;  
     }
 }
-
+@media screen and (min-width:372px){
+    img{
+        width: 80%;
+    }
+}
 
 

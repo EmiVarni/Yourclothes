@@ -35,19 +35,20 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../PAGES/yourclothes.html">Your Clothes</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Colección F/W
                         </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Sweaters</a></li>
-                        <li><a class="dropdown-item" href="#">Camisas</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalSweaters"href="#">Sweaters</a></li>
                         <li><a class="dropdown-item" href="#">Remeras</a></li>
                         <li><a class="dropdown-item" href="#">Pantalones</a></li>
                         <li><a class="dropdown-item" href="#">Accesorios</a></li>
-                        <li><a class="dropdown-item" href="#">Guía de talles</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalTalles" href="">Guía de talles</a></li>
                     </ul>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Imperdibles
@@ -55,19 +56,100 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Garage Sale</a></li>
                         <li><a class="dropdown-item" href="#">Promos</a></li>
-                        <li><a class="dropdown-item" href="#">Adelanto New Season</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Tiendas</a>
                     </li>
                 </ul>
-            <form class="d-flex">
-                <button class="btn btn-outline-success" type="submit">Contacto</button>
-            </form>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success" type="submit">Contacto</button>
+                </form>
             </div>
         </div>
     </nav>
+    <!-- modal sweaters -->
+    <div class="modal" id="modalSweaters" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sweaters</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../IMG/Pink Fun Cardigan.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Pink Fun Cardigan</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Powerfull Orange.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Powerfull Orange</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Sweater Blue day.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Blue Day Sweater</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Sweater Chill day.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Chill Day Sweater</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Sweater Country side.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Country Side Sweater</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Sweater Funny Strippes.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Funny Stripes Sweater</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../IMG/Sweater Romantic.jpg" class="d-block w-100" alt="...">
+                            <div class="card-body cardbodysweaters">
+                                <p class="card-text">Romantic Sweater</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- modal Talles-->
+    <div class="modal" id="modalTalles" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Guía de talles</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="modalImg" src="../IMG/guia-talles.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <h1>Your clothes</h1>
     <div class="container">
         <div class="row">
